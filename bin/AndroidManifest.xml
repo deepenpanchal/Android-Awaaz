@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aawaaz"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.READ_CONTACTS"/>
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.READ_CONTACTS" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+   <uses-permission android:name="android.permission.RECORD_AUDIO" /> 
+   <uses-permission android:name="android.permission.INTERNET"/>
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+         >
+       <activity
+            android:name="com.example.awaaz.SplashScreen"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.HOME" />
+      <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>   
+        </activity>
+            <activity android:name="com.example.awaaz.MainActivity"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+         
+            ></activity>
+             <activity android:name="com.example.awaaz.Gestures"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.Launcher"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.message"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+               <activity android:name="com.example.awaaz.menu"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+             <activity android:name="com.example.awaaz.call"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.main"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.datetime"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.calci"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.battery"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.contacts"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.music"
+           android:launchMode="singleTop"
+  			android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.Song"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.MusicController"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.MusicService"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.SongAdapter"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.email"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.profile"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.record"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+              <activity android:name="com.example.awaaz.translate"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            
+            ></activity>
+             
+    </application>
+
+</manifest>

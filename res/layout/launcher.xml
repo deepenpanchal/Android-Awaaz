@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:textSize="30dp"
+        android:text="To use this app, touch the phone with your finger to know what the button is. To select a particular button, Double click on it. To scroll lists in contacts, use two finger and scroll. Enjoy the experience of using Awaaz! To continue to the home page, double click on this" />
+
+</LinearLayout>
